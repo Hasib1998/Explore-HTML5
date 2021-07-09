@@ -1,6 +1,7 @@
 
-nav ul{
+nav > ul{
     display: flex;
+
 }
 nav li{
     list-style: none;
@@ -12,4 +13,17 @@ nav li :hover{
 }
 nav li a{
     color: black;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+.dropdowon{
+    display: none;
+    position: absolute;
+    background-color: greenyellow;
+    padding: 0;
+}
+.dropdowon li{
+    padding: 0;
+    margin: 0;
 }
